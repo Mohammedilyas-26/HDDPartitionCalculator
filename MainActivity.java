@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
                 "MB: %.2f\n" +
                 "GB: %.2f\n" +
                 "TB: %.4f",
-                gb, bytes, mb, gb, tb
+                gb, bytes, mb, gb, tb  // gb is correct here - used for header AND GB line
             );
 
             tvResults.setText(result);
